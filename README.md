@@ -53,7 +53,6 @@ accessing phpmyadmin:
 
 5) Running Test
 
-The first time the code below 
 ```
 docker-compose -f docker-compose.test.yml up
 ```
