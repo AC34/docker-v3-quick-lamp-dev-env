@@ -58,5 +58,6 @@ The first time the code below
 docker-compose -f docker-compose.test.yml up
 ```
 The composer script name "dotest" will be called by docker-compose.
+
 Update the "dotest" part to make changes to suit for your tests.
 
