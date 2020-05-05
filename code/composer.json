@@ -1,1 +1,8 @@
-{}
+{
+  "require-dev":{
+    "phpunit/phpunit": "^8"
+  },
+  "scripts":{
+    "dotest":"./vendor/bin/phpunit --testsuite basic"
+  }
+}
