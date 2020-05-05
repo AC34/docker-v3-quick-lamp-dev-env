@@ -4,16 +4,18 @@
 There is a downside to everyhing useful.
 
 Since this repository allows you to quickly setup everyhing, some important secrets like passwords for db are stored publicly. 
-Never expose your project to public repository.
+When you start using, change those secrets and never expose your project to public repository. 
+
+Or you can move on to other lamp images (there are many similar images out there)
 
 ## About
-Yet another lamp stack for quick  development.
+Yet another lamp stack for quick development.
 
 ### Requirements
  - docker
  - docker-compose
 
-## Usage
+## Getting started
 1) clone the repository. 
 
 ```
