@@ -11,7 +11,7 @@ Or you can move on to other lamp images (there are many similar images out there
 ## About
 Yet another lamp stack for quick development.
 
-### Requirements
+## Requirements
  - docker
  - docker-compose
 
@@ -59,4 +59,13 @@ docker-compose -f docker-compose.test.yml up
 The composer script name "dotest" will be called by docker-compose.
 
 Update the "dotest" part to make changes to suit for your tests.
+
+## Customizing
+#### php
+	php.ini path is ./docker/php/settings/php.ini
+#### mysql
+	root password can be changed at docker-compose.run.yml.
+	Change the value of : MYSQL_ROOT_PASSWORD
+#### phpmyadmin
+	
 
