@@ -60,15 +60,15 @@ docker-compose -f docker-compose.test.yml up
 ## Customizing
 #### php
 
-	php.ini path is ./docker/php/settings/php.ini
+php.ini path is ./docker/php/settings/php.ini
 
 #### mysql
 
-	root password can be changed at docker-compose.run.yml.
-	Change the value of : MYSQL_ROOT_PASSWORD
+root password can be changed at docker-compose.run.yml.
+Change the value of : MYSQL_ROOT_PASSWORD
 
 #### php test image
 	
-	The composer script name "dotest" will be called by docker-compose.
-	Update the "dotest" part to make changes to suit for your tests.
+The composer script name "dotest" will be called by docker-compose.
+Update the "dotest" part to make changes to suit for your tests.
 
