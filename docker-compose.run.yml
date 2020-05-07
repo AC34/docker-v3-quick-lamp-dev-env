@@ -16,19 +16,16 @@ services:
     volumes:
       - ./mysql:/var/lib/mysql
     ports:
-      - 13306:3306
+      - 3306:3306
     environment:
-      - MYSQL_ROOT_PASSWORD=pass
-      - MYSQL_DATABASE=cms
-      - MYSQL_USER=usr1
-      - MYSQL_PASSWORD=pass
+      - MYSQL_ROOT_PASSWORD=password1
   phpmyadmin: 
     image: phpmyadmin/phpmyadmin
     environment:
       - PMA_ARBITRARY=1
       - PMA_HOST=mysql
-      - PMA_USER=usr1
-      - PMA_PASSWORD=pass
+      - PMA_USER=root
+      - PMA_PASSWORD=password1
     links:
       - mysql
     ports:
