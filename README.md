@@ -36,14 +36,18 @@ docker-compose -f docker-compose.up.yml up
 ```
 4) Accessing
 
+ - accessing php app:
+
 Access via your favourite web browser.
 
- - accessing php app:
 ```
   localhost:80
 ```
 
  - accessing phpmyadmin:
+
+Access via your favourite web browser.
+
   ```
   localhost:4000
   ```
