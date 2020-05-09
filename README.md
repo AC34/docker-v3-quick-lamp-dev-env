@@ -50,7 +50,13 @@ accessing phpmyadmin:
   ```
   localhost:4000?lang=en
   ```
-
+accessing myql from php
+  see the index.php file as an example.
+  connect to "mysql" instead of "localhost" or "127.0.0.1";
+  Example below is accessing via PDO.
+```
+$connection = new PDO("mysql:host=mysql;charset=utf8;port=3306","root","password1");
+```
 5) Running Test
 
 ```
