@@ -38,12 +38,12 @@ docker-compose -f docker-compose.up.yml up
 
 Access via your favourite web browser.
 
-accessing php app:
+ - accessing php app:
 ```
   localhost:80
 ```
 
-accessing phpmyadmin:
+ - accessing phpmyadmin:
   ```
   localhost:4000
   ```
@@ -52,11 +52,11 @@ accessing phpmyadmin:
   localhost:4000?lang=en
   ```
 
-accessing myql from php
+ - accessing myql from php
 
-see the index.php file as an example.
+See the index.php file as an example.
 
-connect to "mysql" instead of "localhost" or "127.0.0.1";
+Connect to "mysql" instead of "localhost" or "127.0.0.1".
 
 Example below is accessing via PDO.
 
